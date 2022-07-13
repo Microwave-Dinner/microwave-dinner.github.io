@@ -1,0 +1,29 @@
+{
+  "name": "microwave-dinner-documentation",
+  "version": "1.0.0",
+  "description": "Documentation for Microwave Dinner",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Microwave-Dinner/microwave-dinner.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Microwave-Dinner/microwave-dinner.github.io/issues"
+  },
+  "homepage": "https://github.com/Microwave-Dinner/microwave-dinner.github.io#readme",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.49"
+  }
+}
